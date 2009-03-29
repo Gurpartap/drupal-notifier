@@ -9,7 +9,7 @@
 	<key>CFBundleIconFile</key>
 	<string>Drupal Notifier.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.gobind.drupalnotifier</string>
+	<string>com.gurpartapsingh.drupalnotifier</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

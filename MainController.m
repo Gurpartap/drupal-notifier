@@ -58,7 +58,7 @@
   [self notificationTimerCallback:notificationTimer];
   [notificationTimer invalidate];
   notificationTimer = [NSTimer
-    scheduledTimerWithTimeInterval:[[savedPrefs valueForKey:@"checkInterval"] intValue]// * 60
+    scheduledTimerWithTimeInterval:[[savedPrefs valueForKey:@"checkInterval"] intValue] * 60
     target:self
     selector:@selector(notificationTimerCallback:)
     userInfo:nil
@@ -76,8 +76,6 @@
 
   return (growlRegistration);
 }
-
-
 
 - (void)notificationTimerCallback:(NSTimer *)notificationTimer {
   NSMutableDictionary *savedPrefs = [[NSUserDefaultsController sharedUserDefaultsController] values];

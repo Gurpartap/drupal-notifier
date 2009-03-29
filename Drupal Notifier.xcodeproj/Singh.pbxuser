@@ -17,7 +17,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					438,
+					990,
 					20,
 					48,
 					43,
@@ -56,32 +56,135 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 259589213;
-			PBXWorkspaceStateSaveDate = 259589213;
+			PBXPerProjectTemplateStateSaveDate = 260025258;
+			PBXWorkspaceStateSaveDate = 260025258;
 		};
 		perUserProjectItems = {
-			544D301C0F79081100E7FDB2 /* PBXTextBookmark */ = 544D301C0F79081100E7FDB2 /* PBXTextBookmark */;
+			543235D80F7FE9F200EB2BAC /* PlistBookmark */ = 543235D80F7FE9F200EB2BAC /* PlistBookmark */;
+			543235D90F7FE9F200EB2BAC /* PBXTextBookmark */ = 543235D90F7FE9F200EB2BAC /* PBXTextBookmark */;
+			543235DA0F7FE9F200EB2BAC /* PBXTextBookmark */ = 543235DA0F7FE9F200EB2BAC /* PBXTextBookmark */;
+			543235DB0F7FE9F200EB2BAC /* PBXTextBookmark */ = 543235DB0F7FE9F200EB2BAC /* PBXTextBookmark */;
+			543235DC0F7FE9F200EB2BAC /* PlistBookmark */ = 543235DC0F7FE9F200EB2BAC /* PlistBookmark */;
+			543235DD0F7FE9F200EB2BAC /* PBXTextBookmark */ = 543235DD0F7FE9F200EB2BAC /* PBXTextBookmark */;
+			543235DE0F7FE9F200EB2BAC /* PBXTextBookmark */ = 543235DE0F7FE9F200EB2BAC /* PBXTextBookmark */;
+			543235DF0F7FE9F200EB2BAC /* PBXTextBookmark */ = 543235DF0F7FE9F200EB2BAC /* PBXTextBookmark */;
+			543235E00F7FE9F200EB2BAC /* PBXTextBookmark */ = 543235E00F7FE9F200EB2BAC /* PBXTextBookmark */;
+			543235E10F7FE9F200EB2BAC /* PBXTextBookmark */ = 543235E10F7FE9F200EB2BAC /* PBXTextBookmark */;
 			544D301D0F79081100E7FDB2 /* PBXTextBookmark */ = 544D301D0F79081100E7FDB2 /* PBXTextBookmark */;
-			544D301E0F79081100E7FDB2 /* PBXBookmark */ = 544D301E0F79081100E7FDB2 /* PBXBookmark */;
-			544D301F0F79081100E7FDB2 /* PBXBookmark */ = 544D301F0F79081100E7FDB2 /* PBXBookmark */;
-			544D30200F79081100E7FDB2 /* PBXBookmark */ = 544D30200F79081100E7FDB2 /* PBXBookmark */;
 			544D30210F79081100E7FDB2 /* PBXTextBookmark */ = 544D30210F79081100E7FDB2 /* PBXTextBookmark */;
 			544D30220F79081100E7FDB2 /* PBXTextBookmark */ = 544D30220F79081100E7FDB2 /* PBXTextBookmark */;
 			544D30230F79081100E7FDB2 /* PBXBookmark */ = 544D30230F79081100E7FDB2 /* PBXBookmark */;
 			544D30240F79081100E7FDB2 /* PBXBookmark */ = 544D30240F79081100E7FDB2 /* PBXBookmark */;
-			544D30250F79081100E7FDB2 /* PBXBookmark */ = 544D30250F79081100E7FDB2 /* PBXBookmark */;
 			544D304E0F79098E00E7FDB2 /* PBXBookmark */ = 544D304E0F79098E00E7FDB2 /* PBXBookmark */;
 			544D304F0F79098E00E7FDB2 /* PBXBookmark */ = 544D304F0F79098E00E7FDB2 /* PBXBookmark */;
 			544D30500F79098E00E7FDB2 /* PBXBookmark */ = 544D30500F79098E00E7FDB2 /* PBXBookmark */;
-			544D30510F79098E00E7FDB2 /* PBXBookmark */ = 544D30510F79098E00E7FDB2 /* PBXBookmark */;
 			544D30520F79098E00E7FDB2 /* PBXBookmark */ = 544D30520F79098E00E7FDB2 /* PBXBookmark */;
-			544D30530F79098E00E7FDB2 /* PBXBookmark */ = 544D30530F79098E00E7FDB2 /* PBXBookmark */;
-			544D30540F79098E00E7FDB2 /* PBXBookmark */ = 544D30540F79098E00E7FDB2 /* PBXBookmark */;
-			544D30550F79098E00E7FDB2 /* PlistBookmark */ = 544D30550F79098E00E7FDB2 /* PlistBookmark */;
 		};
 		sourceControlManager = 544D2FBB0F7900E600E7FDB2 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	543235D80F7FE9F200EB2BAC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Singh/Development/Drupal Notifier/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	543235D90F7FE9F200EB2BAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 544D2FF90F79058100E7FDB2 /* PreferencesWindowController.h */;
+		name = "PreferencesWindowController.h: 10";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 0;
+	};
+	543235DA0F7FE9F200EB2BAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 544D2FFA0F79058100E7FDB2 /* PreferencesWindowController.m */;
+		name = "PreferencesWindowController.m: 97";
+		rLen = 0;
+		rLoc = 3254;
+		rType = 0;
+		vrLen = 901;
+		vrLoc = 5694;
+	};
+	543235DB0F7FE9F200EB2BAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 544D2FFF0F7905E800E7FDB2 /* MainController.m */;
+		name = "MainController.m: 78";
+		rLen = 0;
+		rLoc = 2859;
+		rType = 0;
+		vrLen = 1457;
+		vrLoc = 774;
+	};
+	543235DC0F7FE9F200EB2BAC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/Singh/Development/Drupal Notifier/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	543235DD0F7FE9F200EB2BAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 544D2FFF0F7905E800E7FDB2 /* MainController.m */;
+		name = "MainController.m: 78";
+		rLen = 0;
+		rLoc = 2859;
+		rType = 0;
+		vrLen = 1512;
+		vrLoc = 719;
+	};
+	543235DE0F7FE9F200EB2BAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 544D2FFA0F79058100E7FDB2 /* PreferencesWindowController.m */;
+		name = "PreferencesWindowController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 4766;
+	};
+	543235DF0F7FE9F200EB2BAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 544D2FF90F79058100E7FDB2 /* PreferencesWindowController.h */;
+		name = "PreferencesWindowController.h: 10";
+		rLen = 0;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 981;
+		vrLoc = 0;
+	};
+	543235E00F7FE9F200EB2BAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 544D2FFA0F79058100E7FDB2 /* PreferencesWindowController.m */;
+		name = "PreferencesWindowController.m: 97";
+		rLen = 0;
+		rLoc = 3254;
+		rType = 0;
+		vrLen = 901;
+		vrLoc = 5694;
+	};
+	543235E10F7FE9F200EB2BAC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 544D2FFF0F7905E800E7FDB2 /* MainController.m */;
+		name = "MainController.m: 48";
+		rLen = 0;
+		rLoc = 1727;
+		rType = 0;
+		vrLen = 1220;
+		vrLoc = 1640;
 	};
 	544D2FB20F7900D300E7FDB2 /* Drupal Notifier */ = {
 		isa = PBXExecutable;
@@ -125,17 +228,17 @@
 	};
 	544D2FF90F79058100E7FDB2 /* PreferencesWindowController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {691, 595}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 595}}";
 			sepNavSelRange = "{215, 0}";
-			sepNavVisRange = "{0, 727}";
+			sepNavVisRange = "{0, 981}";
 			sepNavWindowFrame = "{{88, 252}, {750, 558}}";
 		};
 	};
 	544D2FFA0F79058100E7FDB2 /* PreferencesWindowController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {908, 3264}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 891}";
+			sepNavIntBoundsRect = "{{0, 0}, {1168, 3230}}";
+			sepNavSelRange = "{3254, 0}";
+			sepNavVisRange = "{5694, 901}";
 			sepNavWindowFrame = "{{111, 231}, {750, 558}}";
 		};
 	};
@@ -149,21 +252,11 @@
 	};
 	544D2FFF0F7905E800E7FDB2 /* MainController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {676, 3412}}";
-			sepNavSelRange = "{178, 0}";
-			sepNavVisRange = "{0, 447}";
+			sepNavIntBoundsRect = "{{0, 0}, {1324, 3264}}";
+			sepNavSelRange = "{1727, 0}";
+			sepNavVisRange = "{1640, 1220}";
 			sepNavWindowFrame = "{{157, 189}, {750, 558}}";
 		};
-	};
-	544D301C0F79081100E7FDB2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 544D2FFF0F7905E800E7FDB2 /* MainController.m */;
-		name = "MainController.m: 9";
-		rLen = 0;
-		rLoc = 178;
-		rType = 0;
-		vrLen = 285;
-		vrLoc = 0;
 	};
 	544D301D0F79081100E7FDB2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -174,18 +267,6 @@
 		rType = 0;
 		vrLen = 399;
 		vrLoc = 0;
-	};
-	544D301E0F79081100E7FDB2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 544D2FF50F79054700E7FDB2 /* druplicon.large.png */;
-	};
-	544D301F0F79081100E7FDB2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 544D2FF70F79054C00E7FDB2 /* druplicon.png */;
-	};
-	544D30200F79081100E7FDB2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 544D2FCB0F7903C500E7FDB2 /* Drupal Notifier.icns */;
 	};
 	544D30210F79081100E7FDB2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -215,10 +296,6 @@
 		isa = PBXBookmark;
 		fRef = 544D2FF70F79054C00E7FDB2 /* druplicon.png */;
 	};
-	544D30250F79081100E7FDB2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 544D2FCB0F7903C500E7FDB2 /* Drupal Notifier.icns */;
-	};
 	544D304E0F79098E00E7FDB2 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 544D2FCB0F7903C500E7FDB2 /* Drupal Notifier.icns */;
@@ -231,33 +308,9 @@
 		isa = PBXBookmark;
 		fRef = 544D2FF70F79054C00E7FDB2 /* druplicon.png */;
 	};
-	544D30510F79098E00E7FDB2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-	};
 	544D30520F79098E00E7FDB2 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 544D2FCB0F7903C500E7FDB2 /* Drupal Notifier.icns */;
-	};
-	544D30530F79098E00E7FDB2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 544D2FF50F79054700E7FDB2 /* druplicon.large.png */;
-	};
-	544D30540F79098E00E7FDB2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 544D2FF70F79054C00E7FDB2 /* druplicon.png */;
-	};
-	544D30550F79098E00E7FDB2 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleIconFile,
-		);
-		name = "/Users/Singh/Development/Drupal Notifier/Info.plist";
-		rLen = 0;
-		rLoc = 2147483647;
 	};
 	8D1107260486CEB800E47090 /* Drupal Notifier */ = {
 		activeExec = 0;

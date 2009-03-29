@@ -95,7 +95,6 @@
   //
 	
   // Create the URL to the RPC service
-  // rpcURL = [NSURL URLWithString:@"http://punjaby.com/play/xmlrpc.php"];
 	rpcURL = [NSURL URLWithString:(NSString *)[[siteAddress stringValue] stringByAppendingString:@"/xmlrpc.php"]];
 
   // Assign the method name to call on the RPC service
