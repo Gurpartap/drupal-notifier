@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		5454E94D0FEC7D8F00B9953F /* Website.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 5454E94C0FEC7D8F00B9953F /* Website.xcdatamodel */; };
+		546711EB0FF30A0D00BFCE2C /* sound.png in Resources */ = {isa = PBXBuildFile; fileRef = 546711EA0FF30A0D00BFCE2C /* sound.png */; };
+		5467126E0FF3104700BFCE2C /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 5467125B0FF3104700BFCE2C /* Sounds */; };
+		546EEDA60FF35FFA00D080B9 /* UpdateIntervalSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EEDA50FF35FFA00D080B9 /* UpdateIntervalSlider.m */; };
+		546EF1B60FF466FD00D080B9 /* Website.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EF1B30FF466FD00D080B9 /* Website.m */; };
+		546EF1B70FF466FD00D080B9 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 546EF1B50FF466FD00D080B9 /* Notification.m */; };
+		54CE61200FEDD99100AA648D /* WebsiteModel.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54CE611E0FEDD95B00AA648D /* WebsiteModel.strings */; };
+		54D6FA650FEBB86E006166B9 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D6FA640FEBB86E006166B9 /* Preferences.xib */; };
+		54D6FA6C0FEBB8EB006166B9 /* WebsitesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D6FA6B0FEBB8EB006166B9 /* WebsitesView.xib */; };
+		54D6FA8F0FEBBCC3006166B9 /* WebsitesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D6FA8E0FEBBCC3006166B9 /* WebsitesViewController.m */; };
+		54D6FB2C0FEBE1D7006166B9 /* ImageTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D6FB2A0FEBE1D7006166B9 /* ImageTextCell.m */; };
+		54EBC4C60FEB32B400A99292 /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EBC4C50FEB32B400A99292 /* ApplicationDelegate.m */; };
+		54EBC5200FEB3EF100A99292 /* websites.icns in Resources */ = {isa = PBXBuildFile; fileRef = 54EBC51F0FEB3EF100A99292 /* websites.icns */; };
+		54EBC5240FEB402100A99292 /* growl.icns in Resources */ = {isa = PBXBuildFile; fileRef = 54EBC5230FEB402100A99292 /* growl.icns */; };
+		54EBC5380FEBA1F500A99292 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EBC5360FEBA1F500A99292 /* PreferencesController.m */; };
+		54EBC55E0FEBB07500A99292 /* DNStatusItemAlternate.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBC5590FEBB07500A99292 /* DNStatusItemAlternate.png */; };
+		54EBC55F0FEBB07500A99292 /* DNStatusItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 54EBC55A0FEBB07500A99292 /* DNStatusItem.png */; };
+		54EBC5600FEBB07500A99292 /* help.icns in Resources */ = {isa = PBXBuildFile; fileRef = 54EBC55B0FEBB07500A99292 /* help.icns */; };
+		54EBC5610FEBB07500A99292 /* Remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 54EBC55C0FEBB07500A99292 /* Remove.tiff */; };
+		54EBC5620FEBB07500A99292 /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 54EBC55D0FEBB07500A99292 /* Add.tiff */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* Drupal Notifier_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drupal Notifier_Prefix.pch"; sourceTree = "<group>"; };
+		5454E94C0FEC7D8F00B9953F /* Website.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Website.xcdatamodel; sourceTree = "<group>"; };
+		546711EA0FF30A0D00BFCE2C /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
+		5467125B0FF3104700BFCE2C /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		546EEDA40FF35FFA00D080B9 /* UpdateIntervalSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateIntervalSlider.h; path = "View Controllers/UpdateIntervalSlider.h"; sourceTree = "<group>"; };
+		546EEDA50FF35FFA00D080B9 /* UpdateIntervalSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateIntervalSlider.m; path = "View Controllers/UpdateIntervalSlider.m"; sourceTree = "<group>"; };
+		546EF1B20FF466FD00D080B9 /* Website.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Website.h; path = "Data Models/Website.h"; sourceTree = "<group>"; };
+		546EF1B30FF466FD00D080B9 /* Website.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Website.m; path = "Data Models/Website.m"; sourceTree = "<group>"; };
+		546EF1B40FF466FD00D080B9 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Notification.h; path = "Data Models/Notification.h"; sourceTree = "<group>"; };
+		546EF1B50FF466FD00D080B9 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Notification.m; path = "Data Models/Notification.m"; sourceTree = "<group>"; };
+		54CE611C0FEDD94200AA648D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = "Data Models/English.lproj/WebsiteModel.strings"; sourceTree = "<group>"; };
+		54D6FA640FEBB86E006166B9 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Preferences.xib; path = Views/Preferences.xib; sourceTree = "<group>"; };
+		54D6FA6B0FEBB8EB006166B9 /* WebsitesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WebsitesView.xib; path = Views/WebsitesView.xib; sourceTree = "<group>"; };
+		54D6FA8D0FEBBCC3006166B9 /* WebsitesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebsitesViewController.h; path = "View Controllers/WebsitesViewController.h"; sourceTree = "<group>"; };
+		54D6FA8E0FEBBCC3006166B9 /* WebsitesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebsitesViewController.m; path = "View Controllers/WebsitesViewController.m"; sourceTree = "<group>"; };
+		54D6FB2A0FEBE1D7006166B9 /* ImageTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageTextCell.m; path = Utils/ImageTextCell.m; sourceTree = "<group>"; };
+		54D6FB2B0FEBE1D7006166B9 /* ImageTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageTextCell.h; path = Utils/ImageTextCell.h; sourceTree = "<group>"; };
+		54EBC4C40FEB32B400A99292 /* ApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplicationDelegate.h; path = Delegates/ApplicationDelegate.h; sourceTree = "<group>"; };
+		54EBC4C50FEB32B400A99292 /* ApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplicationDelegate.m; path = Delegates/ApplicationDelegate.m; sourceTree = "<group>"; };
+		54EBC51F0FEB3EF100A99292 /* websites.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = websites.icns; path = Graphics/websites.icns; sourceTree = "<group>"; };
+		54EBC5230FEB402100A99292 /* growl.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = growl.icns; path = Graphics/growl.icns; sourceTree = "<group>"; };
+		54EBC5360FEBA1F500A99292 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreferencesController.m; path = "View Controllers/PreferencesController.m"; sourceTree = "<group>"; };
+		54EBC5370FEBA1F500A99292 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreferencesController.h; path = "View Controllers/PreferencesController.h"; sourceTree = "<group>"; };
+		54EBC5590FEBB07500A99292 /* DNStatusItemAlternate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DNStatusItemAlternate.png; path = Graphics/DNStatusItemAlternate.png; sourceTree = "<group>"; };
+		54EBC55A0FEBB07500A99292 /* DNStatusItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DNStatusItem.png; path = Graphics/DNStatusItem.png; sourceTree = "<group>"; };
+		54EBC55B0FEBB07500A99292 /* help.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = help.icns; path = Graphics/help.icns; sourceTree = "<group>"; };
+		54EBC55C0FEBB07500A99292 /* Remove.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Remove.tiff; path = Graphics/Remove.tiff; sourceTree = "<group>"; };
+		54EBC55D0FEBB07500A99292 /* Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Add.tiff; path = Graphics/Add.tiff; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Drupal Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drupal Notifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				54D6FAF30FEBE195006166B9 /* Utils */,
+				54EBC4C10FEB323200A99292 /* Data Models */,
+				54EBC4C00FEB322B00A99292 /* Delegates */,
+				54EBC4BD0FEB320300A99292 /* View Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Drupal Notifier.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Drupal Notifier */ = {
+			isa = PBXGroup;
+			children = (
+				5454E81B0FEC4EC400B9953F /* Data Models */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Drupal Notifier";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Drupal Notifier_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5467125B0FF3104700BFCE2C /* Sounds */,
+				54D6FA4D0FEBB844006166B9 /* Views */,
+				54EBC5000FEB3EE900A99292 /* Graphics */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				54CE611E0FEDD95B00AA648D /* WebsiteModel.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5454E81B0FEC4EC400B9953F /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				546EF1B20FF466FD00D080B9 /* Website.h */,
+				546EF1B30FF466FD00D080B9 /* Website.m */,
+				546EF1B40FF466FD00D080B9 /* Notification.h */,
+				546EF1B50FF466FD00D080B9 /* Notification.m */,
+				5454E94C0FEC7D8F00B9953F /* Website.xcdatamodel */,
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		54D6FA4D0FEBB844006166B9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				54D6FA640FEBB86E006166B9 /* Preferences.xib */,
+				54D6FA6B0FEBB8EB006166B9 /* WebsitesView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		54D6FAF30FEBE195006166B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				54D6FB2B0FEBE1D7006166B9 /* ImageTextCell.h */,
+				54D6FB2A0FEBE1D7006166B9 /* ImageTextCell.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		54EBC4BD0FEB320300A99292 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				54EBC5370FEBA1F500A99292 /* PreferencesController.h */,
+				54EBC5360FEBA1F500A99292 /* PreferencesController.m */,
+				54D6FA8D0FEBBCC3006166B9 /* WebsitesViewController.h */,
+				54D6FA8E0FEBBCC3006166B9 /* WebsitesViewController.m */,
+				546EEDA40FF35FFA00D080B9 /* UpdateIntervalSlider.h */,
+				546EEDA50FF35FFA00D080B9 /* UpdateIntervalSlider.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		54EBC4C00FEB322B00A99292 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				54EBC4C40FEB32B400A99292 /* ApplicationDelegate.h */,
+				54EBC4C50FEB32B400A99292 /* ApplicationDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		54EBC4C10FEB323200A99292 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Data Models";
+			sourceTree = "<group>";
+		};
+		54EBC5000FEB3EE900A99292 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				546711EA0FF30A0D00BFCE2C /* sound.png */,
+				54EBC5590FEBB07500A99292 /* DNStatusItemAlternate.png */,
+				54EBC55A0FEBB07500A99292 /* DNStatusItem.png */,
+				54EBC55C0FEBB07500A99292 /* Remove.tiff */,
+				54EBC55D0FEBB07500A99292 /* Add.tiff */,
+				54EBC55B0FEBB07500A99292 /* help.icns */,
+				54EBC5230FEB402100A99292 /* growl.icns */,
+				54EBC51F0FEB3EF100A99292 /* websites.icns */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Drupal Notifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Drupal Notifier" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drupal Notifier";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Drupal Notifier";
+			productReference = 8D1107320486CEB800E47090 /* Drupal Notifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Drupal Notifier" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Drupal Notifier */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Drupal Notifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				54EBC5200FEB3EF100A99292 /* websites.icns in Resources */,
+				54EBC5240FEB402100A99292 /* growl.icns in Resources */,
+				54EBC55E0FEBB07500A99292 /* DNStatusItemAlternate.png in Resources */,
+				54EBC55F0FEBB07500A99292 /* DNStatusItem.png in Resources */,
+				54EBC5600FEBB07500A99292 /* help.icns in Resources */,
+				54EBC5610FEBB07500A99292 /* Remove.tiff in Resources */,
+				54EBC5620FEBB07500A99292 /* Add.tiff in Resources */,
+				54D6FA650FEBB86E006166B9 /* Preferences.xib in Resources */,
+				54D6FA6C0FEBB8EB006166B9 /* WebsitesView.xib in Resources */,
+				54CE61200FEDD99100AA648D /* WebsiteModel.strings in Resources */,
+				546711EB0FF30A0D00BFCE2C /* sound.png in Resources */,
+				5467126E0FF3104700BFCE2C /* Sounds in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				54EBC4C60FEB32B400A99292 /* ApplicationDelegate.m in Sources */,
+				54EBC5380FEBA1F500A99292 /* PreferencesController.m in Sources */,
+				54D6FA8F0FEBBCC3006166B9 /* WebsitesViewController.m in Sources */,
+				54D6FB2C0FEBE1D7006166B9 /* ImageTextCell.m in Sources */,
+				5454E94D0FEC7D8F00B9953F /* Website.xcdatamodel in Sources */,
+				546EEDA60FF35FFA00D080B9 /* UpdateIntervalSlider.m in Sources */,
+				546EF1B60FF466FD00D080B9 /* Website.m in Sources */,
+				546EF1B70FF466FD00D080B9 /* Notification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		54CE611E0FEDD95B00AA648D /* WebsiteModel.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54CE611C0FEDD94200AA648D /* English */,
+			);
+			name = WebsiteModel.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drupal Notifier_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Drupal Notifier";
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Drupal Notifier_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "Drupal Notifier";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Drupal Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Drupal Notifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
