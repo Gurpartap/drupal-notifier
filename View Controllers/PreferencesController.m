@@ -19,7 +19,7 @@
  * Implementation of init.
  */
 - (id)init {
-  if (![super initWithWindowNibName:@"Preferences"]) {
+  if (!self = [super initWithWindowNibName:@"Preferences"]) {
     return nil;
   }
   return self;

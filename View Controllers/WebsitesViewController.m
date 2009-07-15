@@ -19,7 +19,7 @@
  * Implementation of init.
  */
 - (id)init {
-  if (![super initWithNibName:@"WebsitesView" bundle:nil]) {
+  if (!self = [super initWithNibName:@"WebsitesView" bundle:nil]) {
     return nil;
   }
   return self;
