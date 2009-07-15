@@ -42,7 +42,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Drupal Notifier_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Drupal Notifier_Prefix.pch"; sourceTree = "<group>"; };
-		5454E94C0FEC7D8F00B9953F /* Website.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Website.xcdatamodel; sourceTree = "<group>"; };
+		5454E94C0FEC7D8F00B9953F /* Website.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; name = Website.xcdatamodel; path = "Data Models/Website.xcdatamodel"; sourceTree = "<group>"; };
 		546711EA0FF30A0D00BFCE2C /* sound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sound.png; sourceTree = "<group>"; };
 		5467125B0FF3104700BFCE2C /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
 		546EEDA40FF35FFA00D080B9 /* UpdateIntervalSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateIntervalSlider.h; path = "View Controllers/UpdateIntervalSlider.h"; sourceTree = "<group>"; };
@@ -169,10 +169,6 @@
 		5454E81B0FEC4EC400B9953F /* Data Models */ = {
 			isa = PBXGroup;
 			children = (
-				546EF1B20FF466FD00D080B9 /* Website.h */,
-				546EF1B30FF466FD00D080B9 /* Website.m */,
-				546EF1B40FF466FD00D080B9 /* Notification.h */,
-				546EF1B50FF466FD00D080B9 /* Notification.m */,
 				5454E94C0FEC7D8F00B9953F /* Website.xcdatamodel */,
 			);
 			name = "Data Models";
@@ -222,6 +218,10 @@
 		54EBC4C10FEB323200A99292 /* Data Models */ = {
 			isa = PBXGroup;
 			children = (
+				546EF1B20FF466FD00D080B9 /* Website.h */,
+				546EF1B30FF466FD00D080B9 /* Website.m */,
+				546EF1B40FF466FD00D080B9 /* Notification.h */,
+				546EF1B50FF466FD00D080B9 /* Notification.m */,
 			);
 			name = "Data Models";
 			sourceTree = "<group>";
